@@ -200,12 +200,56 @@ html, body {
     color: #1f2937;
     margin: 150px 100px;
     padding: 0px 0px;
-    flex: 1 1 1;
+    flex: 1;
 }
 
-.name {
+.quote .name {
     margin-top: 30px;
     text-align: right;
     font-weight: bold;
 
+}
+
+.adbody {
+    background-color:white;
+    display:block;
+}
+
+.adbody .ad {
+    margin: 50px 200px ;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color:white;
+    padding: 40px 75px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ad button { 
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 0px 30px;
+    flex: 1 1 1;
+    font-size: 18px;
+}
+
+.subhead {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sub {
+    font-size: 15px;
+    color: #d5d8de;
+}
+
+.footer{
+    display: block;
+    text-align: center;
+    padding: 30px 0px;
+    color: #d5d8de;
+    font-size: 18px;
 }
